@@ -23,6 +23,11 @@ function checkAge() {
 }
 checkAge();
 
+//funzione per stabilire se sei maggiorenne o minorenne.
+// message dovrebbe essere chiamato let non const.
+// non viene stampato da nessuna parte, dovremmo aggiungere un console log di message
+
+
 // ESERCIZIO 2
 function printColorsNumber() {
     const colors = ['blue', 'red', 'yellow', 'green', 'black'];
