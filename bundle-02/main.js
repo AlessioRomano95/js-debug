@@ -78,23 +78,16 @@ checkAccess();
 // ESERCIZIO 5 (suggerimento: c'è un solo errore)
 function checkAccessImproved() {
     const addresses = ['mymail@mail.com', 'yourmail@mail.com', 'hermail@mail.com', 'hismail@mail.com'];
-
     const userEmail = prompt('Inserisci il tuo indirizzo email');
-
     let grantAccess = 'false';
 
     for (let i = 0; i < addresses.length; i++) {
         const email = addresses[i];
-
         if (userEmail.length > 5) {
-
             if (email === userEmail) {
                 grantAccess = 'true';
-
             }
-
         }
-
         if (grantAccess) {
             console.log('Accesso consentito!');
         } else {
@@ -103,10 +96,8 @@ function checkAccessImproved() {
     }
     checkAccessImproved();
 
-
-
-
-
+// il prompt chiede all'utente l'email, e controlla se è presente. ma deve anche essere più lunga di 5 caratteri.
+// sia true che false non sono stringhe.
 
 
 
