@@ -51,3 +51,13 @@ function displayEvenNumbers() {
     }
 }
 displayEvenNumbers(); // dovrebbe restituire [2,4,6,8]
+
+
+// dovrebbe restituire solo gli elementi pari.
+// dopo 'numbers.lenght' non dovrebbe esserci '-1' senno non controlla l'ultimo elemento. 
+// il return dovrebbe essere spostato sotto la seconda parentesi graffa.
+// come nel secondo esercizio nell'if l'= dovrebbe essere un'uguallianza '==='
+// sempre nell'if dopo l'ugualianza non dovrebbe esserci il punto e virgola.
+// displayEvenNumbers() dovrebbe avere prima il console.log. 
+// evenNumbers.push(i); cosi restituisce i non i numeri .
+// non trovo il settimo
