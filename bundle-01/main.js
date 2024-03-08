@@ -15,6 +15,8 @@ for (let i = 0; i > 5; i++) {
     console.log(i);
 }
 
+// nel ciclo, for controlla se i è maggiore di 5. 
+// ma visto che all'inizio gli abbiamo detto che i = 0, i non può essere mai maggiore di 5.
 
 // ESERCIZIO 2
 function addIfEven(num) {
