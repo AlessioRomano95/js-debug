@@ -36,6 +36,8 @@ function loopToFive() {
     }
 }
 
+// stampa in console i numeri da 1 a 4, ma c'e' un errore nella sintassi dopo il 5,. c'e' la virgola anzichè il punto e virgola
+
 
 // ESERCIZIO 4 (suggerimento: ci sono 7 errori)
 function displayEvenNumbers() {
