@@ -35,6 +35,8 @@ function printColorsNumber() {
 }
 printColorsNumber();
 
+// stampiamo in console i colori.
+// ma length è scritto male
 
 // ESERCIZIO 3
 function addNumbers() {
