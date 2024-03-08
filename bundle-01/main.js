@@ -26,6 +26,8 @@ function addIfEven(num) {
     return num;
 }
 
+// la funzione stabilisce se un numero e divisibile per 2, quindi se è pari.
+//ma visto che utilizza '=' e non l'ugualianza '===' non controlla se è pari,
 
 // ESERCIZIO 3
 function loopToFive() {
