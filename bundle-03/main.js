@@ -84,3 +84,10 @@ console.log(dieselCars);
 
 console.log('Tutte le altre auto');
 console.log(otherCars);
+
+
+//dovrebbe dividere le macchine in 3 categorie diverse in base al carburante.
+//nei consi nel primo carattere, alcuni sono maiuscoli altri minuscoli per lo stesso tipo.
+// nella riga 67 c'e' scritto =< anzict dei modelli, ci sono errorhè =>
+// nella riga 74 si dovrebbe utilizzare &&(and logico) non ||(or logico)
+// accanto ad auto.type si dovrebbe utilizzare toLowerCase() per trasfomrare la stringa sempre in minuscolo per evitare problemi con alcune classi fatte in maiuscolo.
