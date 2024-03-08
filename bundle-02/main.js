@@ -70,6 +70,11 @@ function checkAccess() {
 checkAccess();
 
 
+// il prompt chiede all'utente l'email, e controlla se è presente.
+// sia false che true non sono 2 stringhe quindi bisogna levare gli apici.
+
+
+
 // ESERCIZIO 5 (suggerimento: c'è un solo errore)
 function checkAccessImproved() {
     const addresses = ['mymail@mail.com', 'yourmail@mail.com', 'hermail@mail.com', 'hismail@mail.com'];
