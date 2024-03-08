@@ -47,6 +47,8 @@ function addNumbers() {
 }
 addNumbers();
 
+//  chiede all'utente di inserire un numero alla quale poi viene fatta una somma.
+// ma nel formato corretto dovremmo aggiungere parseInt() per far fornire all'utente sempre un numero.
 
 // ESERCIZIO 4
 function checkAccess() {
